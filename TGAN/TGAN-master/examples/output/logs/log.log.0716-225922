@@ -1,0 +1,45 @@
+[32m[0716 22:57:09 @logger.py:90][0m Argv: /home/matias-desktop/anaconda3/lib/python3.7/site-packages/ipykernel_launcher.py -f /run/user/1000/jupyter/kernel-2f7a0847-4b02-4281-8fd5-7fc589450a31.json
+[32m[0716 22:57:09 @model_utils.py:67][0m [36mList of Trainable Variables: 
+[0mname                              shape         #elements
+--------------------------------  ----------  -----------
+gen/LSTM/go:0                     [1, 100]            100
+gen/LSTM/lstm_cell/kernel:0       [500, 400]       200000
+gen/LSTM/lstm_cell/bias:0         [400]               400
+gen/LSTM/00/FC/W:0                [100, 100]        10000
+gen/LSTM/00/FC/b:0                [100]               100
+gen/LSTM/00/FC2/W:0               [100, 1]            100
+gen/LSTM/00/FC2/b:0               [1]                   1
+gen/LSTM/00/attw:0                [1, 1, 1]             1
+gen/LSTM/01/FC/W:0                [100, 100]        10000
+gen/LSTM/01/FC/b:0                [100]               100
+gen/LSTM/01/FC2/W:0               [100, 5]            500
+gen/LSTM/01/FC2/b:0               [5]                   5
+gen/LSTM/01/FC3/W:0               [5, 100]            500
+gen/LSTM/01/FC3/b:0               [100]               100
+gen/LSTM/01/attw:0                [2, 1, 1]             2
+gen/LSTM/02/FC/W:0                [100, 100]        10000
+gen/LSTM/02/FC/b:0                [100]               100
+gen/LSTM/02/FC2/W:0               [100, 194]        19400
+gen/LSTM/02/FC2/b:0               [194]               194
+gen/LSTM/02/FC3/W:0               [194, 100]        19400
+gen/LSTM/02/FC3/b:0               [100]               100
+gen/LSTM/02/attw:0                [3, 1, 1]             3
+discrim/dis_fc0/fc/W:0            [200, 100]        20000
+discrim/dis_fc0/fc/b:0            [100]               100
+discrim/dis_fc0/fc_diversity/W:0  [100, 100]        10000
+discrim/dis_fc0/fc_diversity/b:0  [100]               100
+discrim/dis_fc0/bn/beta:0         [110]               110
+discrim/dis_fc_top/W:0            [110, 1]            110
+discrim/dis_fc_top/b:0            [1]                   1[36m
+Number of trainable variables: 29
+Number of parameters (elements): 301527
+Storage space needed for all trainable variables: 1.15MB[0m
+[32m[0716 22:57:09 @base.py:209][0m Setup callbacks graph ...
+[32m[0716 22:57:09 @summary.py:46][0m [MovingAverageSummary] 6 operations in collection 'MOVING_SUMMARY_OPS' will be run with session hooks.
+[32m[0716 22:57:09 @summary.py:93][0m Summarizing collection 'summaries' of size 9.
+[32m[0716 22:57:09 @graph.py:98][0m Applying collection UPDATE_OPS of 4 ops.
+[32m[0716 22:57:09 @sessinit.py:87][0m [5m[31mWRN[0m The following variables are in the checkpoint, but not found in the graph: gen/LSTM/03/FC/W, gen/LSTM/03/FC/b, gen/LSTM/03/FC2/W, gen/LSTM/03/FC2/b, gen/LSTM/03/FC3/W, gen/LSTM/03/FC3/b, gen/LSTM/03/attw, gen/LSTM/04/FC/W, gen/LSTM/04/FC/b, gen/LSTM/04/FC2/W, gen/LSTM/04/FC2/b, gen/LSTM/04/FC3/W, gen/LSTM/04/FC3/b, gen/LSTM/04/attw, gen/LSTM/05/FC/W, gen/LSTM/05/FC/b, gen/LSTM/05/FC2/W, gen/LSTM/05/FC2/b, gen/LSTM/05/FC3/W, gen/LSTM/05/FC3/b, gen/LSTM/05/attw, gen/LSTM/06/FC/W, gen/LSTM/06/FC/b, gen/LSTM/06/FC2/W, gen/LSTM/06/FC2/b, gen/LSTM/06/attw, gen/LSTM/07/FC/W, gen/LSTM/07/FC/b, gen/LSTM/07/FC2/W, gen/LSTM/07/FC2/b, gen/LSTM/07/FC3/W, gen/LSTM/07/FC3/b, gen/LSTM/07/attw, gen/LSTM/08/FC/W, gen/LSTM/08/FC/b, gen/LSTM/08/FC2/W, gen/LSTM/08/FC2/b, gen/LSTM/08/FC3/W, gen/LSTM/08/FC3/b, gen/LSTM/08/attw, gen/LSTM/09/FC/W, gen/LSTM/09/FC/b, gen/LSTM/09/FC2/W, gen/LSTM/09/FC2/b, gen/LSTM/09/FC3/W, gen/LSTM/09/FC3/b, gen/LSTM/09/attw, gen/LSTM/10/FC/W, gen/LSTM/10/FC/b, gen/LSTM/10/FC2/W, gen/LSTM/10/FC2/b, gen/LSTM/10/FC3/W, gen/LSTM/10/FC3/b, gen/LSTM/10/attw, gen/LSTM/11/FC/W, gen/LSTM/11/FC/b, gen/LSTM/11/FC2/W, gen/LSTM/11/FC2/b, gen/LSTM/11/FC3/W, gen/LSTM/11/FC3/b, gen/LSTM/11/attw, gen/LSTM/12/FC/W, gen/LSTM/12/FC/b, gen/LSTM/12/FC2/W, gen/LSTM/12/FC2/b, gen/LSTM/12/FC3/W, gen/LSTM/12/FC3/b, gen/LSTM/12/attw, gen/LSTM/13/FC/W, gen/LSTM/13/FC/b, gen/LSTM/13/FC2/W, gen/LSTM/13/FC2/b, gen/LSTM/13/FC3/W, gen/LSTM/13/FC3/b, gen/LSTM/13/attw, gen/LSTM/14/FC/W, gen/LSTM/14/FC/b, gen/LSTM/14/FC2/W, gen/LSTM/14/FC2/b, gen/LSTM/14/FC3/W, gen/LSTM/14/FC3/b, gen/LSTM/14/attw, gen/LSTM/15/FC/W, gen/LSTM/15/FC/b, gen/LSTM/15/FC2/W, gen/LSTM/15/FC2/b, gen/LSTM/15/FC3/W, gen/LSTM/15/FC3/b, gen/LSTM/15/attw, gen/LSTM/16/FC/W, gen/LSTM/16/FC/b, gen/LSTM/16/FC2/W, gen/LSTM/16/FC2/b, gen/LSTM/16/FC3/W, gen/LSTM/16/FC3/b, gen/LSTM/16/attw, gen/LSTM/17/FC/W, gen/LSTM/17/FC/b, gen/LSTM/17/FC2/W, gen/LSTM/17/FC2/b, gen/LSTM/17/FC3/W, gen/LSTM/17/FC3/b, gen/LSTM/17/attw, gen/LSTM/18/FC/W, gen/LSTM/18/FC/b, gen/LSTM/18/FC2/W, gen/LSTM/18/FC2/b, gen/LSTM/18/attw, gen/LSTM/19/FC/W, gen/LSTM/19/FC/b, gen/LSTM/19/FC2/W, gen/LSTM/19/FC2/b, gen/LSTM/19/FC3/W, gen/LSTM/19/FC3/b, gen/LSTM/19/attw, gen/LSTM/20/FC/W, gen/LSTM/20/FC/b, gen/LSTM/20/FC2/W, gen/LSTM/20/FC2/b, gen/LSTM/20/attw, gen/LSTM/21/FC/W, gen/LSTM/21/FC/b, gen/LSTM/21/FC2/W, gen/LSTM/21/FC2/b, gen/LSTM/21/FC3/W, gen/LSTM/21/FC3/b, gen/LSTM/21/attw, gen/LSTM/22/FC/W, gen/LSTM/22/FC/b, gen/LSTM/22/FC2/W, gen/LSTM/22/FC2/b, gen/LSTM/22/attw, gen/LSTM/23/FC/W, gen/LSTM/23/FC/b, gen/LSTM/23/FC2/W, gen/LSTM/23/FC2/b, gen/LSTM/23/FC3/W, gen/LSTM/23/FC3/b, gen/LSTM/23/attw, gen/LSTM/24/FC/W, gen/LSTM/24/FC/b, gen/LSTM/24/FC2/W, gen/LSTM/24/FC2/b, gen/LSTM/24/FC3/W, gen/LSTM/24/FC3/b, gen/LSTM/24/attw, gen/LSTM/25/FC/W, gen/LSTM/25/FC/b, gen/LSTM/25/FC2/W, gen/LSTM/25/FC2/b, gen/LSTM/25/FC3/W, gen/LSTM/25/FC3/b, gen/LSTM/25/attw, gen/LSTM/26/FC/W, gen/LSTM/26/FC/b, gen/LSTM/26/FC2/W, gen/LSTM/26/FC2/b, gen/LSTM/26/FC3/W, gen/LSTM/26/FC3/b, gen/LSTM/26/attw, gen/LSTM/27/FC/W, gen/LSTM/27/FC/b, gen/LSTM/27/FC2/W, gen/LSTM/27/FC2/b, gen/LSTM/27/FC3/W, gen/LSTM/27/FC3/b, gen/LSTM/27/attw, gen/LSTM/28/FC/W, gen/LSTM/28/FC/b, gen/LSTM/28/FC2/W, gen/LSTM/28/FC2/b, gen/LSTM/28/FC3/W, gen/LSTM/28/FC3/b, gen/LSTM/28/attw, gen/LSTM/29/FC/W, gen/LSTM/29/FC/b, gen/LSTM/29/FC2/W, gen/LSTM/29/FC2/b, gen/LSTM/29/FC3/W, gen/LSTM/29/FC3/b, gen/LSTM/29/attw, gen/LSTM/30/FC/W, gen/LSTM/30/FC/b, gen/LSTM/30/FC2/W, gen/LSTM/30/FC2/b, gen/LSTM/30/FC3/W, gen/LSTM/30/FC3/b, gen/LSTM/30/attw, gen/LSTM/31/FC/W, gen/LSTM/31/FC/b, gen/LSTM/31/FC2/W, gen/LSTM/31/FC2/b, gen/LSTM/31/FC3/W, gen/LSTM/31/FC3/b, gen/LSTM/31/attw, gen/LSTM/32/FC/W, gen/LSTM/32/FC/b, gen/LSTM/32/FC2/W, gen/LSTM/32/FC2/b, gen/LSTM/32/FC3/W, gen/LSTM/32/FC3/b, gen/LSTM/32/attw, gen/LSTM/33/FC/W, gen/LSTM/33/FC/b, gen/LSTM/33/FC2/W, gen/LSTM/33/FC2/b, gen/LSTM/33/FC3/W, gen/LSTM/33/FC3/b, gen/LSTM/33/attw, gen/LSTM/34/FC/W, gen/LSTM/34/FC/b, gen/LSTM/34/FC2/W, gen/LSTM/34/FC2/b, gen/LSTM/34/attw, gen/LSTM/35/FC/W, gen/LSTM/35/FC/b, gen/LSTM/35/FC2/W, gen/LSTM/35/FC2/b, gen/LSTM/35/FC3/W, gen/LSTM/35/FC3/b, gen/LSTM/35/attw, gen/LSTM/36/FC/W, gen/LSTM/36/FC/b, gen/LSTM/36/FC2/W, gen/LSTM/36/FC2/b, gen/LSTM/36/FC3/W, gen/LSTM/36/FC3/b, gen/LSTM/36/attw, gen/LSTM/37/FC/W, gen/LSTM/37/FC/b, gen/LSTM/37/FC2/W, gen/LSTM/37/FC2/b, gen/LSTM/37/FC3/W, gen/LSTM/37/FC3/b, gen/LSTM/37/attw, gen/LSTM/38/FC/W, gen/LSTM/38/FC/b, gen/LSTM/38/FC2/W, gen/LSTM/38/FC2/b, gen/LSTM/38/FC3/W, gen/LSTM/38/FC3/b, gen/LSTM/38/attw, gen/LSTM/39/FC/W, gen/LSTM/39/FC/b, gen/LSTM/39/FC2/W, gen/LSTM/39/FC2/b, gen/LSTM/39/FC3/W, gen/LSTM/39/FC3/b, gen/LSTM/39/attw, gen/LSTM/40/FC/W, gen/LSTM/40/FC/b, gen/LSTM/40/FC2/W, gen/LSTM/40/FC2/b, gen/LSTM/40/FC3/W, gen/LSTM/40/FC3/b, gen/LSTM/40/attw, gen/LSTM/41/FC/W, gen/LSTM/41/FC/b, gen/LSTM/41/FC2/W, gen/LSTM/41/FC2/b, gen/LSTM/41/FC3/W, gen/LSTM/41/FC3/b, gen/LSTM/41/attw, gen/LSTM/42/FC/W, gen/LSTM/42/FC/b, gen/LSTM/42/FC2/W, gen/LSTM/42/FC2/b, gen/LSTM/42/FC3/W, gen/LSTM/42/FC3/b, gen/LSTM/42/attw, gen/LSTM/43/FC/W, gen/LSTM/43/FC/b, gen/LSTM/43/FC2/W, gen/LSTM/43/FC2/b, gen/LSTM/43/FC3/W, gen/LSTM/43/FC3/b, gen/LSTM/43/attw, gen/LSTM/44/FC/W, gen/LSTM/44/FC/b, gen/LSTM/44/FC2/W, gen/LSTM/44/FC2/b, gen/LSTM/44/attw, gen/LSTM/45/FC/W, gen/LSTM/45/FC/b, gen/LSTM/45/FC2/W, gen/LSTM/45/FC2/b, gen/LSTM/45/FC3/W, gen/LSTM/45/FC3/b, gen/LSTM/45/attw, gen/LSTM/46/FC/W, gen/LSTM/46/FC/b, gen/LSTM/46/FC2/W, gen/LSTM/46/FC2/b, gen/LSTM/46/FC3/W, gen/LSTM/46/FC3/b, gen/LSTM/46/attw, gen/LSTM/47/FC/W, gen/LSTM/47/FC/b, gen/LSTM/47/FC2/W, gen/LSTM/47/FC2/b, gen/LSTM/47/FC3/W, gen/LSTM/47/FC3/b, gen/LSTM/47/attw
+[32m[0716 22:57:09 @base.py:230][0m Creating the session ...
+[32m[0716 22:57:11 @base.py:236][0m Initializing the session ...
+[32m[0716 22:57:11 @sessinit.py:114][0m Restoring checkpoint from output/model/model-10000 ...
+[32m[0716 22:57:49 @input_source.py:222][0m Setting up the queue 'QueueInput_1/input_queue' for CPU prefetching ...

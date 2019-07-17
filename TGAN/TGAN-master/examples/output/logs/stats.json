@@ -1,0 +1,1 @@
+[{"QueueInput/queue_size": 50.0, "GAN_loss/gen/loss": 1.30165696144104, "GAN_loss/gen/klloss": 0.23851801455020905, "GAN_loss/gen/final-g-loss": 1.540174961090088, "GAN_loss/discrim/loss": 0.5892128348350525, "GAN_loss/discrim/accuracy_real": 0.4300000071525574, "GAN_loss/discrim/accuracy_fake": 0.8299999833106995, "epoch_num": 1, "global_step": 10000}]
